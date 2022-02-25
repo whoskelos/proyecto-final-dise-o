@@ -52,3 +52,13 @@
 .nombre-localidad {
     font-weight: 300 !important;
 }
+
+.breadcrumb-item a {
+    font-family: "Roboto", sans-serif !important;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.329) !important;
+}
+
+.breadcrumb-item{
+    font-family: "Roboto", sans-serif !important;
+}

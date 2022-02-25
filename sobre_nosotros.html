@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es-ES">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sobre-nosotros.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <title>Sobre nosotros</title>
+</head>
+
+<body>
+
+    <!--Menu de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/apple.png" alt="logo de la web" width="50">
+                TGT
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul id="menuNav" class="navbar-nav ml-auto ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/restaurantes.html">Restaurantes</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                        </ul>
+                    </li>
+                    <a id="btn-login" class="btn btn-danger rounded" href="/login.html" role="button">Login</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--AQUI VA EL CONTENIDO DE SOBRE NOSOTROS-->
+    <div class="container mt-4">
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+                <h1 class="titulo-about text-center">
+                    SOBRE NOSOTROS
+                </h1>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/adm_usuarios.jpeg" alt="imagen" class="img-fluid">
+            </div>
+
+        </div>
+
+        <!--AQUI ESCRIBIMOS UN PAR DE PARRAFOS-->
+        <div class="row mt-5">
+            <!--TITULO-->
+            <div class="col-12 mb-2">
+                <h4 class="text-center subtitulo-about">
+                    ¿Quiénes somos?
+                </h4>
+            </div>
+            <!--PÁRRAFO-->
+            <div class="col-12 mb-2">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores ab
+                    minima perferendis reiciendis sapiente. Earum enim sit blanditiis quasi quam, soluta explicabo,
+                    facilis fuga mollitia reprehenderit sint ipsum ea.</p>
+            </div>
+            <!--TITULO-->
+            <div class="col-12 mb-2">
+                <h4 class="text-center subtitulo-about">
+                    ¿Qué hacemos?
+                </h4>
+            </div>
+            <!--PÁRRAFO-->
+            <div class="col-12 mb-2">
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore asperiores ab
+                    minima perferendis reiciendis sapiente. Earum enim sit blanditiis quasi quam, soluta explicabo,
+                    facilis fuga mollitia reprehenderit sint ipsum ea.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--AQUI VA EL FOOTER-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="assets/img/apple.png" width="30" alt="">
+                </a>
+                <span class="text-muted">©2022 Kelvin Guerrero</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/facebook.png" width="25" alt="">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/instagram.png" width="25" alt="">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/twitter.png" width="25" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <!--MAPA WEB-->
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-center mb-3">
+                    Mapa web
+                </h4>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 d-md-flex flex-column align-items-center text-center">
+                <h4 class="txt-mapa">ZONAS</h4>
+                <ul class="lista-mapa">
+                    <li>Inicio</li>
+                    <li>Restaurantes</li>
+                    <li>Sobre nosotros</li>
+                    <li>Login</li>
+                    <li>Registro</li>
+                </ul>
+            </div>
+            <div class="col-md-4 d-md-flex flex-column align-items-center text-center">
+                <h4 class="txt-mapa">TIPO DE CONTENIDO</h4>
+                <ul class="lista-mapa">
+                    <li>Imágenes</li>
+                    <li>Videos</li>
+                    <li>Infografías</li>
+                    <li>Gráficos</li>
+                    <li>Presentaciones</li>
+                </ul>
+            </div>
+            <div class="col-md-4 d-md-flex flex-column align-items-center text-center">
+                <h4 class="txt-mapa">REDES</h4>
+                <ul class="lista-mapa">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>LinkedIn</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

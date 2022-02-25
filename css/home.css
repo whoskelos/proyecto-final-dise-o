@@ -34,3 +34,13 @@
 .imgFavorito {
     width: 30px;
 }
+
+.breadcrumb-item a {
+    font-family: "Roboto", sans-serif !important;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.329) !important;
+}
+
+.breadcrumb-item{
+    font-family: "Roboto", sans-serif !important;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+/* h1,h2,h3,h4 {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+} */
+
+.titulo-about {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+    padding: 10px;
+}
+.subtitulo-about {
+    padding: 8px;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+    color: rgb(61, 59, 59);
+    background-color: #ebe8e8 !important;
+    border-radius: 8px;
+}
+
+
+.mapa-web h4{
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+}
+
+.mapa-web {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400;
+    padding: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.txt-mapa{
+    color: rgb(119, 119, 119);
+    font-family: "Roboto", sans-serif !important;
+}
+
+.lista-mapa li{
+    list-style-type: none;
+}
+.lista-mapa{
+    padding-left: 0 !important;
+}
