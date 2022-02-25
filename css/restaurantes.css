@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+    font-family: "Roboto", sans-serif !important;
+}
+.buscador {
+    margin-top: 30px;
+    padding: 10px;
+}
+.tipoBusqueda {
+    /* width: 300px;
+    height: 60px;
+    padding: 15px; */
+    border-radius: 10px; /* top-left | top-right | bottom-right | bottom-left */
+    border: 1px solid rgba(128, 128, 128, 0.466) !important;
+}
+
+.ciudadBusqueda {
+    /* width: 300px;
+    height: 60px;
+    padding: 15px; */
+    border-radius: 10px; /* top-left | top-right | bottom-right | bottom-left */
+    border: 1px solid rgba(128, 128, 128, 0.466) !important;
+}
+.bordeInputs {
+    border: 1px solid rgba(128, 128, 128, 0.466);
+}
+.imagenRestaurante img {
+    width: 16em;
+    height: 200px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.datosRestaurante {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+    padding: 20px;
+}
+.masInfo {
+    width: 25px;
+}
+.imagenRestaurante {
+    cursor: pointer;
+}
+.cardRestaurante {
+    background-color: #f9f7f7;
+}
+.btn-tipo {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.nombre-localidad {
+    font-weight: 300 !important;
+}

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es-ES">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <title>The Good Taste</title>
+</head>
+
+<body>
+    <!--Menu de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">
+                <img src="assets/img/apple.png" alt="logo de la web" width="50">
+                TGT
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul id="menuNav" class="navbar-nav ml-auto ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/restaurantes.html">Restaurantes</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibilidad</a></li>
+                            <li><a class="dropdown-item" href="#">Licencia</a></li>
+                        </ul>
+                    </li>
+                    <a id="btn-login" class="btn btn-danger rounded" href="/login" role="button">Login</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--CAMINO DE MIGAS-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                    aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active"><a href="#">Home</a></li>
+                        <!-- <li class="breadcrumb-item active" aria-current="page">Library</li> -->
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <!--AQUI VA EL DISEÑO DEL HOME-->
+    <div class="container footer-abajo">
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="titulo-home">Bienvenido 'Taster'</h1>
+                    <h1 class="subtitulo-home">¿Qué comemos hoy?</h1>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <a name="" id="" class="btn btn-danger btn-home" routerLink="/" role="button">Saber más</a>
+                </div>
+            </div>
+            <!-- ========== Start carousel ========== -->
+            <div class="col-md-6">
+                <div id="carouselId" class="carousel slide my-4" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="assets/img/tacos.jpg" class="d-block w-100" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/espaguetis.jpg" class="d-block w-100" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/china.jpg" class="d-block w-100" alt="Third slide">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ========== End carousel ========== -->
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 d-md-flex align-items-center justify-content-sm-center">
+                <div class="">
+                    <h3 class="tituloValorados">Restaurantes mejores valorados</h3>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="d-sm-flex justify-content-sm-between">
+
+                    <div class="d-flex flex-column align-items-center">
+                        <div>
+                            <img class="imgFavorito" src="assets/img/estrella.png" alt="favorito">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/hamburguesa.jpg" alt="foto del restaurante">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center">
+                        <div>
+                            <img class="imgFavorito" src="assets/img/estrella.png" alt="favorito">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/india.jpg" alt="foto del restaurante">
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center">
+                        <div>
+                            <img class="imgFavorito" src="assets/img/estrella.png" alt="favorito">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/pulpo.jpg" alt="foto del restaurante">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AQUI VA EL FOOTER-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <img src="assets/img/apple.png" width="30" alt="">
+                </a>
+                <span class="text-muted">©2022 Kelvin Guerrero</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/facebook.png" width="25" alt="">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/instagram.png" width="25" alt="">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="#" class="text-muted">
+                        <img src="assets/img/twitter.png" width="25" alt="">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

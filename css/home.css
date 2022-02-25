@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+.titulo-home {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+    padding: 10px;
+}
+.subtitulo-home {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300;
+    color: rgb(61, 59, 59);
+}
+
+.btn-home {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 500;
+    border-radius: 18px !important;
+}
+
+.tituloValorados {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 300;
+    text-align: center;
+}
+
+.card {
+    width: 150px;
+}
+
+.col {
+    margin: 4px 0 4px 0;
+}
+
+.imgFavorito {
+    width: 30px;
+}
